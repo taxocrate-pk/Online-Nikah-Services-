@@ -4,10 +4,19 @@ import './globals.css'
 
 export const metadata = {
   metadataBase: new URL('https://onlinenikahservices.com'),
-  title: { default: 'Online Nikah Services | Trusted Remote Nikah Guidance', template: '%s | Online Nikah Services' },
-  description: 'Professional guidance for couples arranging an online Nikah, document review and Pakistan-based registration assistance.',
+  title: {
+    default: 'Online Nikah Services Pakistan | Online Nikah for Overseas Couples',
+    template: '%s | Online Nikah Services'
+  },
+  description: 'Online Nikah services in Pakistan for local and overseas couples: legal guidance, remote ceremony coordination, documents and registration assistance.',
   alternates: { canonical: '/' },
-  openGraph: { type: 'website', siteName: 'Online Nikah Services', title: 'Online Nikah Services', description: 'Thoughtful, practical guidance for your Nikah journey.' },
+  openGraph: {
+    type: 'website',
+    siteName: 'Online Nikah Services',
+    title: 'Online Nikah Services Pakistan | Online Nikah for Overseas Couples',
+    description: 'Pakistan-based Online Nikah guidance, remote ceremony coordination and registration assistance for couples in Pakistan and abroad.',
+    url: '/'
+  },
 }
 export const viewport = { colorScheme: 'light', themeColor: '#f7f4ed', userScalable: true }
 export default function RootLayout({ children }) {
@@ -24,31 +33,205 @@ export function headingCase(text='') {
 }
 
 export const siteConfig = {
-  phone: '+92 333 1127830', whatsapp: 'https://wa.me/923331127830',
-  cities: { Karachi: '+92 333 1127830', Lahore: '+92 333 1127835', Islamabad: '+92 333 1127836', Rawalpindi: '+92 333 1127831' }
+  phone: '+92 333 1127830',
+  whatsapp: 'https://wa.me/923331127830',
+  email: 'info@onlinenikahservices.com',
+  offices: {
+    johar: {
+      name: 'Karachi Head Office',
+      address: 'A-220, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Johar, Karachi',
+      phone: '+92 333 1127830'
+    },
+    dha: {
+      name: 'Karachi DHA Office',
+      address: 'Jami Commercial, DHA Phase 7, Karachi',
+      phone: '+92 331 6644789'
+    }
+  },
+  cities: {
+    Karachi: '+92 333 1127830',
+    Lahore: '+92 333 1127835',
+    Islamabad: '+92 333 1127836',
+    Rawalpindi: '+92 333 1127831',
+    Faisalabad: '+92 333 1127830',
+    Hyderabad: '+92 333 1127830',
+    'Rahim Yar Khan': '+92 333 1127830'
+  }
 }
 
-export function jsonLd(data) { return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} /> }
-
-export const organisationSchema = { '@context': 'https://schema.org', '@type': 'Organization', '@id':'https://onlinenikahservices.com/#organization', name: 'Online Nikah Services', url: 'https://onlinenikahservices.com', description: 'Online Nikah guidance, document review and Pakistan-based registration assistance.' }
-
-export const websiteSchema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Online Nikah Services', url: 'https://onlinenikahservices.com' }
-
-export const countries = [
-  ['Pakistan','/pakistan/'], ['United Arab Emirates','/united-arab-emirates/'], ['Saudi Arabia','/saudi-arabia/'], ['Qatar','/qatar/'], ['United Kingdom','/united-kingdom/'], ['United States','/united-states/'], ['Canada','/canada/']
+export const legalTeam = [
+  { name:'Shankar Lal Kataria', role:'Family Law Head' },
+  { name:'Mohsin Ali Mirani', role:'Advocate' },
+  { name:'Sobia Mohsin', role:'Family and Corporate Taxation Lawyer' },
+  { name:'Zaheer Ashraf Qazi', role:'Advocate' },
+  { name:'Kashif Mumtaz', role:'Advocate High Court · Islamabad and Rawalpindi' },
+  { name:'Junaid Kahloon', role:'Advocate High Court · Lahore' }
 ]
 
-export const services = [['Online Nikah ceremony','/our-services/'], ['Document review','/our-services/'], ['Registration assistance','/our-services/'], ['Overseas document use','/our-services/']]
+export function jsonLd(data) {
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
+}
 
-export function breadcrumbSchema(items) { return { '@context':'https://schema.org', '@type':'BreadcrumbList', itemListElement: items.map((item, index) => ({ '@type':'ListItem', position:index+1, name:item[0], item:`https://onlinenikahservices.com${item[1]}` })) } }
+export const organisationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id':'https://onlinenikahservices.com/#organization',
+  name: 'Online Nikah Services',
+  url: 'https://onlinenikahservices.com/',
+  email: siteConfig.email,
+  telephone: siteConfig.phone,
+  description: 'Pakistan-based Online Nikah guidance, ceremony coordination, document review and marriage registration assistance for local and overseas couples.',
+  location: [
+    {
+      '@type':'Place',
+      name: siteConfig.offices.johar.name,
+      address: {
+        '@type':'PostalAddress',
+        streetAddress:'A-220, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Johar',
+        addressLocality:'Karachi',
+        addressCountry:'PK'
+      }
+    },
+    {
+      '@type':'Place',
+      name: siteConfig.offices.dha.name,
+      address: {
+        '@type':'PostalAddress',
+        streetAddress:'Jami Commercial, DHA Phase 7',
+        addressLocality:'Karachi',
+        addressCountry:'PK'
+      }
+    }
+  ]
+}
 
-export function PageJsonLd({ breadcrumb, service, faq }) { return <>{jsonLd(organisationSchema)}{jsonLd(websiteSchema)}{breadcrumb && jsonLd(breadcrumbSchema(breadcrumb))}{service && jsonLd({ '@context':'https://schema.org', '@graph':[
-  { '@type':'LegalService', '@id':'https://onlinenikahservices.com/#legalservice', name:service, url:'https://onlinenikahservices.com/', areaServed:'Worldwide', provider:{'@id':'https://onlinenikahservices.com/#organization'} },
-  { '@type':'WebPage', '@id':'https://onlinenikahservices.com/#webpage', url:'https://onlinenikahservices.com/', name:service, about:{'@id':'https://onlinenikahservices.com/#legalservice'} },
-  { '@type':'LocalBusiness', '@id':'https://onlinenikahservices.com/#localbusiness', name:'Online Nikah Services', url:'https://onlinenikahservices.com/', telephone:siteConfig.phone, areaServed:['Pakistan','United Kingdom','United States','Canada','United Arab Emirates','Saudi Arabia','Qatar'] }
-] })}{faq && jsonLd({ '@context':'https://schema.org', '@type':'FAQPage', mainEntity:faq.map(x => ({ '@type':'Question', name:x[0], acceptedAnswer:{ '@type':'Answer', text:x[1] } }))})}</> }
+export const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id':'https://onlinenikahservices.com/#website',
+  name: 'Online Nikah Services',
+  url: 'https://onlinenikahservices.com/',
+  publisher:{'@id':'https://onlinenikahservices.com/#organization'}
+}
 
-export function makeMetadata(title, description, path) { return { title, description, alternates:{canonical:path}, openGraph:{title, description, url:path, type:'website'} } }
+export const countries = [
+  ['Pakistan','/pakistan/'],
+  ['United Arab Emirates','/united-arab-emirates/'],
+  ['Saudi Arabia','/saudi-arabia/'],
+  ['Qatar','/qatar/'],
+  ['United Kingdom','/united-kingdom/'],
+  ['United States','/united-states/'],
+  ['Canada','/canada/']
+]
+
+export const services = [
+  ['Online Nikah ceremony','/our-services/'],
+  ['Document review','/our-services/'],
+  ['Registration assistance','/our-services/'],
+  ['Overseas document use','/our-services/']
+]
+
+export function breadcrumbSchema(items) {
+  return {
+    '@context':'https://schema.org',
+    '@type':'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type':'ListItem',
+      position:index+1,
+      name:item[0],
+      item:`https://onlinenikahservices.com${item[1]}`
+    }))
+  }
+}
+
+export function PageJsonLd({ breadcrumb, service, faq, path='/', title, description, areaServed='Worldwide' }) {
+  const absolute = `https://onlinenikahservices.com${path}`
+  const serviceId = `${absolute}#legalservice`
+  const pageId = `${absolute}#webpage`
+  const localBusiness = {
+    '@context':'https://schema.org',
+    '@type':'LocalBusiness',
+    '@id':'https://onlinenikahservices.com/#localbusiness',
+    name:'Online Nikah Services',
+    url:'https://onlinenikahservices.com/',
+    telephone:siteConfig.phone,
+    email:siteConfig.email,
+    areaServed:['Pakistan','United Kingdom','United States','Canada','United Arab Emirates','Saudi Arabia','Qatar'],
+    address:{
+      '@type':'PostalAddress',
+      streetAddress:'A-220, 2nd Floor, Supreme Corner, Johar Chowrangi, Block 18, Gulistan-e-Johar',
+      addressLocality:'Karachi',
+      addressCountry:'PK'
+    },
+    department:{
+      '@type':'LocalBusiness',
+      name:'Online Nikah Services — DHA Phase 7',
+      telephone:siteConfig.offices.dha.phone,
+      address:{
+        '@type':'PostalAddress',
+        streetAddress:'Jami Commercial, DHA Phase 7',
+        addressLocality:'Karachi',
+        addressCountry:'PK'
+      }
+    }
+  }
+  const serviceGraph = service ? {
+    '@context':'https://schema.org',
+    '@graph':[
+      {
+        '@type':'LegalService',
+        '@id':serviceId,
+        name:service,
+        url:absolute,
+        description:description || service,
+        areaServed,
+        provider:{'@id':'https://onlinenikahservices.com/#organization'}
+      },
+      {
+        '@type':'WebPage',
+        '@id':pageId,
+        url:absolute,
+        name:title || service,
+        description:description || service,
+        isPartOf:{'@id':'https://onlinenikahservices.com/#website'},
+        about:{'@id':serviceId}
+      }
+    ]
+  } : {
+    '@context':'https://schema.org',
+    '@type':'WebPage',
+    '@id':pageId,
+    url:absolute,
+    name:title || 'Online Nikah Services',
+    description:description || 'Online Nikah guidance and service information.',
+    isPartOf:{'@id':'https://onlinenikahservices.com/#website'}
+  }
+  return <>
+    {jsonLd(organisationSchema)}
+    {jsonLd(websiteSchema)}
+    {jsonLd(localBusiness)}
+    {breadcrumb && jsonLd(breadcrumbSchema(breadcrumb))}
+    {jsonLd(serviceGraph)}
+    {faq && jsonLd({
+      '@context':'https://schema.org',
+      '@type':'FAQPage',
+      mainEntity:faq.map(x => ({
+        '@type':'Question',
+        name:x[0],
+        acceptedAnswer:{ '@type':'Answer', text:x[1] }
+      }))
+    })}
+  </>
+}
+
+export function makeMetadata(title, description, path) {
+  return {
+    title:{absolute:title},
+    description,
+    alternates:{canonical:path},
+    openGraph:{title, description, url:path, type:'website'}
+  }
+}
 
 export function whatsappLink(message='Hello, I would like to ask about your online Nikah services.') { return `${siteConfig.whatsapp}?text=${encodeURIComponent(message)}` }
 
