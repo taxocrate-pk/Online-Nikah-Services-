@@ -138,7 +138,7 @@ export default function Page(){
         <p className="section-lead">City pages are separate targets so Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Hyderabad and the protected Rahim Yar Khan legacy intent do not compete through one multi-city URL.</p>
       </div>
       <div className="city-grid">
-        {Object.entries(cityData).map(([slug,data]) => <article key={slug}><div><span className="city-pin">{data.name.slice(0,1)}</span><h3>{data.name}</h3></div><p>{data.intro}</p><a href={`/${slug}/`}>Online Nikah in {data.name} <span>↗</span></a></article>)}
+        {Object.entries(cityData).map(([slug,data]) => <article key={slug}><div><span className="city-pin">{data.name.slice(0,1)}</span><h3>{data.name}</h3></div><p>{data.intro}</p><a href={data.path}>Online Nikah in {data.name} <span>↗</span></a></article>)}
       </div>
     </section>
 
