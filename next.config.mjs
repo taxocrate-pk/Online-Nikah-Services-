@@ -1,10 +1,51 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+  },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.onlinenikahservices.com' }],
+        destination: 'https://onlinenikahservices.com/:path*',
+        permanent: true,
+      },
+
+      // Consolidate legacy generic Online Nikah service URLs into the strongest current intent pages.
+      { source: '/get-married-online-our-online-nikah-services/', destination: '/', permanent: true },
+      { source: '/online-nikah-services-and-validity-of-online-nikah/', destination: '/online-nikah-in-islam-a-comprehensive-guide-to-e-nikkah-online/', permanent: true },
+      { source: '/understanding-online-nikah-a-comprehensive-guide/', destination: '/online-nikah-in-islam-a-comprehensive-guide-to-e-nikkah-online/', permanent: true },
+      { source: '/online-marriage-services-in-the-modern-era/', destination: '/', permanent: true },
+      { source: '/online-nikah-documentation-by-expert-lawyers/', destination: '/pakistan/', permanent: true },
+      { source: '/online-nikah-services-in-islamabad-karachi-rahimyar-khan-lahore-peshawar-rawalpindi/', destination: '/pakistan/', permanent: true },
+      { source: '/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/', destination: '/pakistan/', permanent: true },
+
+      // Preserve city intent while removing mixed Online Nikah / Court Marriage cannibalisation.
+      { source: '/online-nikah-marriage-court-marriage-in-karachi/', destination: '/karachi/', permanent: true },
+      { source: '/online-nikah-marriage-court-marriage-in-lahore/', destination: '/lahore/', permanent: true },
+      { source: '/online-nikah-marriage-court-marriage-in-islamabad/', destination: '/islamabad/', permanent: true },
+      { source: '/online-nikah-marriage-court-marriage-in-rahimyar-khan/', destination: '/rahim-yar-khan/', permanent: true },
+
+      // Court-marriage-only legacy intent belongs to the dedicated Court Marriage property.
+      { source: '/court-marriage-civil-marriage-in-pakistan-about-court-marriage/', destination: 'https://court-marriage.com/', permanent: true },
+      { source: '/court-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/', destination: 'https://court-marriage.com/', permanent: true },
+      { source: '/court-marriage-in-karachi-islamabad-rawalpindi-pakistan', destination: 'https://court-marriage.com/', permanent: true },
+      { source: '/court-marriage-in-karachi-islamabad-rawalpindi-pakistan/', destination: 'https://court-marriage.com/', permanent: true },
+      { source: '/introduction-to-court-marriage-unveiling-the-legal-union/', destination: 'https://court-marriage.com/', permanent: true },
+      { source: '/understanding-the-process-of-civil-marriage-ceremonies/', destination: 'https://court-marriage.com/', permanent: true },
+
+      // Old WordPress index.php variants.
+      { source: '/index.php/about-us/', destination: '/about-us/', permanent: true },
+      { source: '/index.php/contact-us/', destination: '/contact-us/', permanent: true },
+      { source: '/index.php/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/', destination: '/pakistan/', permanent: true },
+      { source: '/index.php/online-nikah-services-in-islamabad-karachi-rahimyar-khan-lahore-peshawar-rawalpindi/', destination: '/pakistan/', permanent: true },
+      { source: '/category/uncategorized/', destination: '/blogs/', permanent: true },
+      { source: '/author/:path*', destination: '/about-us/', permanent: true },
+    ]
   },
 }
 
