@@ -101,6 +101,7 @@ export default async function Page({ params }) {
         path={path}
         title={data.title}
         description={data.description}
+        article
       />
     </>
   }
