@@ -5,6 +5,7 @@ import {
   GuidePage,
   countryData,
   cityData,
+  cityRouteMap,
   guideData,
   makeMetadata,
   PageJsonLd,
@@ -16,7 +17,7 @@ import {
 export function generateStaticParams() {
   return [
     ...Object.keys(countryData),
-    ...Object.keys(cityData),
+    ...Object.keys(cityRouteMap),
     ...Object.keys(guideData)
   ].map(country => ({ country }))
 }
@@ -33,8 +34,8 @@ export async function generateMetadata({ params }) {
     )
   }
 
-  if (cityData[slug]) {
-    const data = cityData[slug]
+  if (cityRouteMap[slug]) {
+    const data = cityData[cityRouteMap[slug]]
     return makeMetadata(
       `Online Nikah in ${data.name} | Online Nikah Service Pakistan`,
       `Online Nikah in ${data.name} with remote ceremony coordination, document review, witnesses, Mahr guidance and Pakistan registration assistance.`,
@@ -71,8 +72,8 @@ export default async function Page({ params }) {
     </>
   }
 
-  if (cityData[slug]) {
-    const data = cityData[slug]
+  if (cityRouteMap[slug]) {
+    const data = cityData[cityRouteMap[slug]]
     const path = `/${slug}/`
     const faq = cityFaq(data.name)
     return <>
