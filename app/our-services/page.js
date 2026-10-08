@@ -108,8 +108,8 @@ export default function Page(){
       <div className="section-title"><p className="eyebrow">06 / SERVICE AREAS</p><h2>Online Nikah Coverage in Pakistan and Abroad</h2><p className="section-lead">The service is remote-first, with dedicated national, city and overseas guidance pages so each search intent remains clear.</p></div>
       <div className="city-grid">
         <article><div><span className="city-pin">P</span><h3>Pakistan</h3></div><p>National Online Nikah guidance with separate city pages for major local service searches.</p><a href="/pakistan/">Online Nikah in Pakistan <span>↗</span></a></article>
-        <article><div><span className="city-pin">K</span><h3>Karachi</h3></div><p>Karachi-specific Online Nikah guidance and current Johar and DHA Phase 7 consultation details.</p><a href="/karachi/">Online Nikah in Karachi <span>↗</span></a></article>
-        <article><div><span className="city-pin">L</span><h3>Lahore</h3></div><p>Lahore service intent with regional coordination and remote document review.</p><a href="/lahore/">Online Nikah in Lahore <span>↗</span></a></article>
+        <article><div><span className="city-pin">K</span><h3>Karachi</h3></div><p>Karachi-specific Online Nikah guidance and current Johar and DHA Phase 7 consultation details.</p><a href="/online-nikah-marriage-court-marriage-in-karachi/">Online Nikah in Karachi <span>↗</span></a></article>
+        <article><div><span className="city-pin">L</span><h3>Lahore</h3></div><p>Lahore service intent with regional coordination and remote document review.</p><a href="/online-nikah-marriage-court-marriage-in-lahore/">Online Nikah in Lahore <span>↗</span></a></article>
         <article><div><span className="city-pin">O</span><h3>Overseas Couples</h3></div><p>Country pages separate Pakistan-side ceremony work from destination-country recognition questions.</p><a href="/united-kingdom/">Explore Overseas Guidance <span>↗</span></a></article>
       </div>
     </section>
