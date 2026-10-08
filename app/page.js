@@ -65,8 +65,8 @@ export default function Page(){
     <section id="procedure" className="content-section split-section">
       <div>
         <p className="eyebrow">E-E-A-T / FIRST REVIEW</p>
-        <h2>Online Nikah Guidance by Pakistan-Based Family Law Professionals</h2>
-        <h3>Online Nikah Procedure, Documents and Registration Explained Before the Ceremony</h3>
+        <h2>Online Nikah Guidance By Pakistan-Based Family Law Professionals</h2>
+        <h3>Online Nikah Procedure, Documents and Registration Explained Before The Ceremony</h3>
       </div>
       <div className="prose">
         <p>A serious Online Nikah service begins before the video call. The first task is to establish who the parties are, whether each person is legally and religiously free to marry, whether consent is voluntary, how witnesses will participate and whether any representative authority is needed. Only after those points are workable should the ceremony date become the centre of the discussion.</p>
@@ -81,7 +81,7 @@ export default function Page(){
     <section className="process-section">
       <div className="section-title">
         <p className="eyebrow">01 / ONLINE NIKAH PROCESS</p>
-        <h2>From Initial Review to Nikah and Registration</h2>
+        <h2>From Initial Review To Nikah and Registration</h2>
         <p className="section-lead">The process is designed to separate ceremony planning from official registration and later document use so that the couple knows what each stage is intended to achieve.</p>
       </div>
       <div className="process-grid">
@@ -107,7 +107,7 @@ export default function Page(){
         <h2>Nikah, Marriage Registration and Overseas Recognition Are Different Questions</h2>
       </div>
       <div>
-        <h3>A Remote Ceremony Does Not Remove the Later Legal Steps</h3>
+        <h3>A Remote Ceremony Does Not Remove The Later Legal Steps</h3>
         <p>A Nikah is the Muslim marriage contract and ceremony. The Nikah Nama records that contract. A computerised marriage certificate is a separate civil registration record. Translation, authentication, attestation and recognition by a foreign authority are additional stages. An Online Nikah service should explain these differences rather than bundle them into one guarantee.</p>
       </div>
     </section>
@@ -134,7 +134,7 @@ export default function Page(){
     <section className="city-section">
       <div className="section-title">
         <p className="eyebrow">06 / PAKISTAN CITY PAGES</p>
-        <h2>Online Nikah Services in Major Pakistani Cities</h2>
+        <h2>Online Nikah Services In Major Pakistani Cities</h2>
         <p className="section-lead">City pages are separate targets so Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Hyderabad and the protected Rahim Yar Khan legacy intent do not compete through one multi-city URL.</p>
       </div>
       <div className="city-grid">
@@ -166,7 +166,7 @@ export default function Page(){
 
     <section className="cta-band">
       <p className="eyebrow">START WITH THE FACTS</p>
-      <h2>Request an Online Nikah Assessment</h2>
+      <h2>Request An Online Nikah Assessment</h2>
       <p>Send both parties’ locations, nationality, marital status, preferred date and intended document use. The team will identify the first checklist and practical route.</p>
       <CTA href={whatsappLink('Hello, I would like an Online Nikah assessment. Both parties are located in: ')} children="Start on WhatsApp" />
     </section>
