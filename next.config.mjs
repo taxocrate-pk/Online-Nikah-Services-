@@ -46,8 +46,8 @@ const nextConfig = {
       // Old WordPress index.php variants.
       { source: '/index.php/about-us/', destination: '/about-us/', permanent: true },
       { source: '/index.php/contact-us/', destination: '/contact-us/', permanent: true },
-      { source: '/index.php/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/', destination: '/pakistan/', permanent: true },
-      { source: '/index.php/online-nikah-services-in-islamabad-karachi-rahimyar-khan-lahore-peshawar-rawalpindi/', destination: '/pakistan/', permanent: true },
+      { source: '/index.php/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/', destination: '/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/', permanent: true },
+      { source: '/index.php/online-nikah-services-in-islamabad-karachi-rahimyar-khan-lahore-peshawar-rawalpindi/', destination: '/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/', permanent: true },
       { source: '/category/uncategorized/', destination: '/blogs/', permanent: true },
       { source: '/author/:path*', destination: '/about-us/', permanent: true },
     ]
