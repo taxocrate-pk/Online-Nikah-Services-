@@ -144,7 +144,7 @@ export function breadcrumbSchema(items) {
   }
 }
 
-export function PageJsonLd({ breadcrumb, service, faq, path='/', title, description, areaServed='Worldwide' }) {
+export function PageJsonLd({ breadcrumb, service, faq, path='/', title, description, areaServed='Worldwide', article=false }) {
   const absolute = `https://onlinenikahservices.com${path}`
   const serviceId = `${absolute}#legalservice`
   const pageId = `${absolute}#webpage`
@@ -206,12 +206,24 @@ export function PageJsonLd({ breadcrumb, service, faq, path='/', title, descript
     description:description || 'Online Nikah guidance and service information.',
     isPartOf:{'@id':'https://onlinenikahservices.com/#website'}
   }
+  const articleSchema = article ? {
+    '@context':'https://schema.org',
+    '@type':'Article',
+    '@id':`${absolute}#article`,
+    headline:title,
+    description:description,
+    url:absolute,
+    mainEntityOfPage:{'@id':pageId},
+    publisher:{'@id':'https://onlinenikahservices.com/#organization'},
+    author:{'@id':'https://onlinenikahservices.com/#organization'}
+  } : null
   return <>
     {jsonLd(organisationSchema)}
     {jsonLd(websiteSchema)}
     {jsonLd(localBusiness)}
     {breadcrumb && jsonLd(breadcrumbSchema(breadcrumb))}
     {jsonLd(serviceGraph)}
+    {articleSchema && jsonLd(articleSchema)}
     {faq && jsonLd({
       '@context':'https://schema.org',
       '@type':'FAQPage',
@@ -471,7 +483,7 @@ export function PractitionerPanel() {
   return <section className="content-section practitioner-section">
     <div className="section-title">
       <p className="eyebrow">E-E-A-T / MATRIMONIAL TEAM</p>
-      <h2>Online Nikah Guidance by Pakistan-Based Family Law Professionals</h2>
+      <h2>Matrimonial Lawyers Coordinating Remote Nikah Matters</h2>
       <p className="section-lead">The service is coordinated through advocates and family-law professionals. Team allocation depends on the city, documentation and legal issue involved; no page should imply that a named lawyer personally reviewed a matter unless that review actually occurred.</p>
     </div>
     <div className="practitioner-grid">
