@@ -550,7 +550,7 @@ export function CountryBody({ data, isPakistan=false }) {
     </section>
 
     <section className="content-section split-section">
-      <div><p className="eyebrow">01 / SCOPE</p><h2>What the Online Nikah Service Covers</h2></div>
+      <div><p className="eyebrow">01 / SCOPE</p><h2>What The Online Nikah Service Covers</h2></div>
       <div className="prose">
         <p>Every enquiry starts with both parties’ current locations, identity, marital status, free consent, intended witnesses, Mahr and the reason the marriage documents are required. That first review matters because an Online Nikah ceremony, statutory marriage registration and foreign use of documents are connected but not interchangeable.</p>
         <p>Where Pakistan-based arrangements are relevant, the team can coordinate the agreed ceremony structure, review supporting documents and explain what registration work is included. Translation, attestation, embassy use, immigration evidence and recognition in another country are treated as separate stages rather than guaranteed consequences of the ceremony.</p>
@@ -562,7 +562,7 @@ export function CountryBody({ data, isPakistan=false }) {
     <SupportingImages/>
 
     <section className="process-section">
-      <div className="section-title"><p className="eyebrow">02 / PROCESS</p><h2>Online Nikah Steps From Review to Registration</h2></div>
+      <div className="section-title"><p className="eyebrow">02 / PROCESS</p><h2>Online Nikah Steps From Review To Registration</h2></div>
       <div className="process-grid">{[
         ['01','Eligibility and Identity Review','We confirm the parties’ basic identity details, locations, marital status and the practical structure of participation.'],
         ['02','Consent, Witnesses and Mahr','The couple settles free consent, witness participation and the Mahr instructions before the Nikah Nama is finalised.'],
@@ -585,7 +585,7 @@ export function CountryBody({ data, isPakistan=false }) {
 
     <section className="cta-band">
       <p className="eyebrow">NEXT STEP</p>
-      <h2>Discuss Your Online Nikah Before Fixing the Date</h2>
+      <h2>Discuss Your Online Nikah Before Fixing The Date</h2>
       <p>Share both parties’ locations, marital status, proposed date and intended document use. We will identify the first documents and the practical route.</p>
       <CTA href={whatsappLink(`Hello, I live in ${place} and would like to ask about Online Nikah services.`)} children="Request an Online Nikah Assessment" />
     </section>
@@ -707,7 +707,7 @@ export function GuidePage({ data, slug }) {
       {data.sections.map(([heading,body],i)=><article key={heading}><p className="eyebrow">{String(i+1).padStart(2,'0')} / GUIDE</p><h2>{heading}</h2><p>{body}</p></article>)}
       <div className="guide-next"><h3>Need Online Nikah Service Rather Than General Information?</h3><p>Use the main service page for a case-specific review of both parties’ locations, documents, witnesses, Mahr, ceremony structure and registration needs.</p><a className="text-link" href="/">Go to Online Nikah Services <span>↗</span></a></div>
     </section>
-    <section className="content-section faq-section"><div className="section-title"><p className="eyebrow">FAQ</p><h2>Questions Related to This Online Nikah Guide</h2></div><FAQ items={faq}/></section>
+    <section className="content-section faq-section"><div className="section-title"><p className="eyebrow">FAQ</p><h2>Questions Related To This Online Nikah Guide</h2></div><FAQ items={faq}/></section>
   </main></Layout>
 }
 
