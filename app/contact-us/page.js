@@ -2,11 +2,11 @@ import { Layout, CTA, PageJsonLd, OfficePanel, PractitionerPanel, siteConfig, wh
 import WhatsAppForm from './WhatsAppForm'
 
 export const metadata = {
-  title:{absolute:'Contact Online Nikah Services Pakistan | WhatsApp Consultation'},
+  title:{absolute:'Contact Online Nikah Services | WhatsApp Consultation'},
   description:'Contact Online Nikah Services in Pakistan for ceremony planning, documents and registration guidance. Karachi Johar and DHA Phase 7 consultations.',
   alternates:{canonical:'/contact-us/'},
   openGraph:{
-    title:'Contact Online Nikah Services Pakistan | WhatsApp Consultation',
+    title:'Contact Online Nikah Services | WhatsApp Consultation',
     description:'Contact the Pakistan-based Online Nikah team for a structured first review by WhatsApp.',
     url:'/contact-us/',
     type:'website'
