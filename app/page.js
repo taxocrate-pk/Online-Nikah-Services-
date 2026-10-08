@@ -8,6 +8,7 @@ import {
   SupportingImages,
   PractitionerPanel,
   OfficePanel,
+  NikahStagesTable,
   cityData,
   whatsappLink
 } from './layout'
@@ -112,8 +113,17 @@ export default function Page(){
       </div>
     </section>
 
+    <section className="content-section">
+      <div className="section-title">
+        <p className="eyebrow">04 / LEGAL STAGES</p>
+        <h2>Compare Online Nikah Ceremony, Registration and Overseas Use</h2>
+        <p className="section-lead">One remote ceremony does not replace every later civil or foreign-document requirement.</p>
+      </div>
+      <NikahStagesTable/>
+    </section>
+
     <section className="content-section split-section">
-      <div><p className="eyebrow">04 / PROFESSIONAL FEE</p><h2>Online Nikah Service Fee and Payment Structure</h2></div>
+      <div><p className="eyebrow">05 / PROFESSIONAL FEE</p><h2>Online Nikah Service Fee and Payment Structure</h2></div>
       <div className="prose">
         <p>The usual professional service fee is PKR 40,000–60,000, depending on the agreed scope, locations, document work and registration requirements. The normal payment structure is 50% advance and the remaining 50% after Nikah and registration, subject to the written scope for the matter.</p>
         <p>Mahr is not part of the professional fee. Government charges, courier costs, certified translation, authentication, attestation and other third-party expenses are also separate unless the written quotation expressly includes them. Clear separation of these amounts makes it easier for the couple to understand what the professional fee covers and what depends on an outside authority or service provider.</p>
@@ -124,7 +134,7 @@ export default function Page(){
 
     <section id="countries" className="country-section">
       <div className="section-title">
-        <p className="eyebrow">05 / COUNTRY GUIDES</p>
+        <p className="eyebrow">06 / COUNTRY GUIDES</p>
         <h2>Online Nikah Guidance for Couples Living Abroad</h2>
         <p className="section-lead">Country pages preserve their own search intent and explain the distinction between a Pakistan-side Online Nikah and the separate recognition or document-use questions in the place where the couple lives.</p>
       </div>
@@ -133,7 +143,7 @@ export default function Page(){
 
     <section className="city-section">
       <div className="section-title">
-        <p className="eyebrow">06 / PAKISTAN CITY PAGES</p>
+        <p className="eyebrow">07 / PAKISTAN CITY PAGES</p>
         <h2>Online Nikah Services In Major Pakistani Cities</h2>
         <p className="section-lead">City pages are separate targets so Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Hyderabad and the protected Rahim Yar Khan legacy intent do not compete through one multi-city URL.</p>
       </div>
@@ -145,7 +155,7 @@ export default function Page(){
     <OfficePanel/>
 
     <section className="content-section split-section">
-      <div><p className="eyebrow">07 / INTERNAL GUIDES</p><h2>Focused Online Nikah Guides Without Keyword Cannibalisation</h2></div>
+      <div><p className="eyebrow">08 / INTERNAL GUIDES</p><h2>Focused Online Nikah Guides Without Keyword Cannibalisation</h2></div>
       <div className="prose">
         <p>The homepage is the primary broad-intent page for <strong>Online Nikah</strong>. The Pakistan page targets <strong>Online Nikah in Pakistan</strong>, country pages target overseas locations and city pages target local service intent. Narrow informational questions are handled through focused guides instead of creating multiple pages that all chase the same generic keyword.</p>
         <p><a className="text-link" href="/online-nikah-in-islam-a-comprehensive-guide-to-e-nikkah-online/">Is Online Nikah Valid in Islam? <span>↗</span></a></p>
@@ -157,7 +167,7 @@ export default function Page(){
 
     <section className="content-section faq-section">
       <div className="section-title">
-        <p className="eyebrow">08 / FAQ</p>
+        <p className="eyebrow">09 / FAQ</p>
         <h2>Online Nikah Questions Before You Start</h2>
         <p className="section-lead">These answers explain the service at a general level. The facts of the couple’s own matter still need review before a ceremony or document route is confirmed.</p>
       </div>
