@@ -1,4 +1,4 @@
-import { Layout, Hero, CTA, FAQ, PageJsonLd, PractitionerPanel, SupportingImages, whatsappLink } from '../layout'
+import { Layout, Hero, CTA, FAQ, PageJsonLd, PractitionerPanel, SupportingImages, NikahStagesTable, whatsappLink } from '../layout'
 
 const serviceFaq = [
   ['What does the Online Nikah service include?', 'The service begins with a structured review of both parties’ locations, identity, nationality, marital status, free consent, witnesses, Mahr and intended document use. Depending on the agreed scope, the team can coordinate the remote ceremony structure, prepare or review relevant authority documents, support completion of the Nikah documentation and assist with Pakistan-side registration steps. Translation, attestation, courier work and foreign recognition are separate unless specifically included in writing.'],
@@ -86,8 +86,13 @@ export default function Page(){
       </div>
     </section>
 
+    <section className="content-section">
+      <div className="section-title"><p className="eyebrow">03 / LEGAL STAGES</p><h2>Compare Online Nikah Ceremony, Registration and Overseas Use</h2><p className="section-lead">The professional scope should make clear which stage is being handled and which decision belongs to an outside authority.</p></div>
+      <NikahStagesTable/>
+    </section>
+
     <section className="intro-band">
-      <div><p className="eyebrow">03 / REGISTRATION</p><h2>Marriage Registration Assistance After The Online Nikah</h2></div>
+      <div><p className="eyebrow">04 / REGISTRATION</p><h2>Marriage Registration Assistance After The Online Nikah</h2></div>
       <div>
         <h3>Nikah Nama and Computerised Marriage Certificate Are Separate Records</h3>
         <p>Where registration assistance is part of the agreed scope, the team helps organise the Pakistan-side documentary route after solemnisation. The competent authority and procedure depend on the facts and locality. A computerised marriage certificate should not be described as the same document as the Nikah Nama, and government processing times should not be guaranteed by a private service provider.</p>
@@ -95,7 +100,7 @@ export default function Page(){
     </section>
 
     <section className="content-section split-section">
-      <div><p className="eyebrow">04 / OVERSEAS USE</p><h2>Translation, Attestation and Foreign Document Use</h2></div>
+      <div><p className="eyebrow">05 / OVERSEAS USE</p><h2>Translation, Attestation and Foreign Document Use</h2></div>
       <div className="prose">
         <p>Couples abroad often need the Pakistan documents for an embassy, immigration application, spouse visa, foreign civil registry, employer, bank or another official purpose. Each receiving institution can set its own requirements. Some may ask for certified translation, authentication, attestation, additional identity evidence or proof of how the marriage was registered.</p>
         <p>The Online Nikah service can help identify the Pakistan-side documents and common next questions, but it cannot turn a religious ceremony into a guaranteed civil result in another jurisdiction. The destination authority should be identified as early as possible so that the couple understands what must be confirmed outside the Pakistan process.</p>
@@ -104,7 +109,7 @@ export default function Page(){
     </section>
 
     <section className="content-section split-section">
-      <div><p className="eyebrow">05 / PROFESSIONAL FEES</p><h2>Online Nikah Professional Fee and Payment Terms</h2></div>
+      <div><p className="eyebrow">06 / PROFESSIONAL FEES</p><h2>Online Nikah Professional Fee and Payment Terms</h2></div>
       <div className="prose">
         <p>The usual professional service fee is PKR 40,000–60,000. The exact figure depends on the agreed scope, the parties’ locations, whether representation documents are needed, the complexity of prior-marriage or identity records and the registration work included.</p>
         <p>The normal payment structure is 50% advance and the remaining 50% after Nikah and registration, subject to the written scope. Mahr is a separate obligation agreed between the intended spouses. Official fees, translation, courier, authentication, attestation and other third-party charges should also be identified separately unless expressly included in writing.</p>
@@ -115,7 +120,7 @@ export default function Page(){
     <PractitionerPanel/>
 
     <section className="city-section">
-      <div className="section-title"><p className="eyebrow">06 / SERVICE AREAS</p><h2>Online Nikah Coverage In Pakistan and Abroad</h2><p className="section-lead">The service is remote-first, with dedicated national, city and overseas guidance pages so each search intent remains clear.</p></div>
+      <div className="section-title"><p className="eyebrow">07 / SERVICE AREAS</p><h2>Online Nikah Coverage In Pakistan and Abroad</h2><p className="section-lead">The service is remote-first, with dedicated national, city and overseas guidance pages so each search intent remains clear.</p></div>
       <div className="city-grid">
         <article><div><span className="city-pin">P</span><h3>Pakistan</h3></div><p>National Online Nikah guidance with separate city pages for major local service searches.</p><a href="/pakistan/">Online Nikah in Pakistan <span>↗</span></a></article>
         <article><div><span className="city-pin">K</span><h3>Karachi</h3></div><p>Karachi-specific Online Nikah guidance and current Johar and DHA Phase 7 consultation details.</p><a href="/online-nikah-marriage-court-marriage-in-karachi/">Online Nikah in Karachi <span>↗</span></a></article>
@@ -125,7 +130,7 @@ export default function Page(){
     </section>
 
     <section className="content-section faq-section">
-      <div className="section-title"><p className="eyebrow">07 / FAQ</p><h2>Questions About The Online Nikah Service Scope</h2><p className="section-lead">The written scope for a particular couple controls the professional engagement; these answers describe the usual structure.</p></div>
+      <div className="section-title"><p className="eyebrow">08 / FAQ</p><h2>Questions About The Online Nikah Service Scope</h2><p className="section-lead">The written scope for a particular couple controls the professional engagement; these answers describe the usual structure.</p></div>
       <FAQ items={serviceFaq}/>
     </section>
 
