@@ -580,6 +580,11 @@ export function CountryBody({ data, isPakistan=false }) {
 
     <SupportingImages/>
 
+    <section className="content-section">
+      <div className="section-title"><p className="eyebrow">CEREMONY / REGISTRATION / USE</p><h2>Online Nikah Stages and Their Different Legal Purposes</h2><p className="section-lead">Keeping these stages separate prevents the remote ceremony from being mistaken for every later registration or foreign-recognition requirement.</p></div>
+      <NikahStagesTable/>
+    </section>
+
     <section className="process-section">
       <div className="section-title"><p className="eyebrow">02 / PROCESS</p><h2>Online Nikah Steps From Review To Registration</h2></div>
       <div className="process-grid">{[
@@ -674,6 +679,11 @@ export function CityPage({ data, slug }) {
     </section>
 
     <SupportingImages/>
+
+    <section className="content-section">
+      <div className="section-title"><p className="eyebrow">CEREMONY / REGISTRATION / USE</p><h2>Online Nikah Stages for ${data.name} Couples</h2><p className="section-lead">The religious ceremony, Pakistan registration and later overseas document use are related but distinct stages.</p></div>
+      <NikahStagesTable/>
+    </section>
 
     <section className="localities-section">
       <div className="section-title"><p className="eyebrow">02 / SERVICE AREAS</p><h2>{data.name} Localities Served for Online Nikah Enquiries</h2><p className="section-lead">Initial consultations and document review can begin remotely from these areas and surrounding locations.</p></div>
