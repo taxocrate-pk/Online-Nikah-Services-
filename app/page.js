@@ -36,11 +36,11 @@ const faqs = [
 ]
 
 export const metadata = {
-  title:{absolute:'Online Nikah Services Pakistan | Online Nikah for Overseas Couples'},
+  title:{absolute:'Online Nikah Pakistan | Online Nikah Services'},
   description:'Online Nikah services in Pakistan for local and overseas couples: remote ceremony coordination, legal guidance, documents and registration assistance.',
   alternates:{canonical:'/'},
   openGraph:{
-    title:'Online Nikah Services Pakistan | Online Nikah for Overseas Couples',
+    title:'Online Nikah Pakistan | Online Nikah Services',
     description:'Pakistan-based Online Nikah guidance, ceremony coordination, documents and registration assistance for couples in Pakistan and abroad.',
     url:'/',
     type:'website'
