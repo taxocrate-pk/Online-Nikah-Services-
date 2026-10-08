@@ -1,11 +1,11 @@
 import { Layout, CTA, PageJsonLd, whatsappLink } from '../layout'
 
 export const metadata = {
-  title:{absolute:'Online Nikah Guides Pakistan | Validity, Documents and Registration'},
+  title:{absolute:'Online Nikah Guides | Online Nikah Pakistan'},
   description:'Focused Online Nikah guides on validity, CNIC and marriage records, Nikah Khawan roles, registration and document verification in Pakistan.',
   alternates:{canonical:'/blogs/'},
   openGraph:{
-    title:'Online Nikah Guides Pakistan | Validity, Documents and Registration',
+    title:'Online Nikah Guides | Online Nikah Pakistan',
     description:'Focused legal and documentation guides supporting the main Online Nikah service without duplicating its broad keyword intent.',
     url:'/blogs/',
     type:'website'
