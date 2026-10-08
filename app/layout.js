@@ -681,7 +681,7 @@ export function CityPage({ data, slug }) {
     <SupportingImages/>
 
     <section className="content-section">
-      <div className="section-title"><p className="eyebrow">CEREMONY / REGISTRATION / USE</p><h2>Online Nikah Stages for ${data.name} Couples</h2><p className="section-lead">The religious ceremony, Pakistan registration and later overseas document use are related but distinct stages.</p></div>
+      <div className="section-title"><p className="eyebrow">CEREMONY / REGISTRATION / USE</p><h2>Online Nikah Stages for {data.name} Couples</h2><p className="section-lead">The religious ceremony, Pakistan registration and later overseas document use are related but distinct stages.</p></div>
       <NikahStagesTable/>
     </section>
 
