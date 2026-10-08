@@ -53,7 +53,7 @@ export default function Page(){
 
     <Hero
       eyebrow="REMOTE MUSLIM MARRIAGE SUPPORT / PAKISTAN"
-      title="Online Nikah Services in Pakistan for Local and Overseas Couples"
+      title="Online Nikah Services in Pakistan — Online Nikah for Overseas Couples"
       image="/hero-dulha-dulhan.png"
       imageAlt="Muslim couple discussing Online Nikah documents with Pakistan-based ceremony support"
       actions={<><CTA href={whatsappLink('Hello, I would like an Online Nikah assessment.')} children="Request an Online Nikah Assessment" /><CTA href="#procedure" outline children="Read the Procedure" /></>}
