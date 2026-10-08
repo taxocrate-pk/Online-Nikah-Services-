@@ -309,7 +309,7 @@ export const countryData = {
     name:'United Kingdom',
     short:'the UK',
     seoName:'UK',
-    intro:'Online Nikah guidance for UK residents who want a Pakistan-connected Nikah while keeping religious ceremony, Pakistan registration and UK legal recognition separate.',
+    intro:'Online Nikah guidance for UK residents arranging a Pakistan-connected Nikah while keeping ceremony, registration and UK recognition separate.',
     image:'/hero-uk.png',
     angle:'Online Nikah for UK Residents With Clear Religious and Civil Distinctions',
     recognition:'A religious Nikah does not necessarily create a civil marriage recognised for every purpose in the United Kingdom. Couples should confirm the effect of their chosen ceremony and documents under the law applicable to them and should not rely on a Pakistan-side process as a substitute for UK civil requirements.',
