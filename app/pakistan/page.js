@@ -1,7 +1,7 @@
 import { CountryPage, makeMetadata, PageJsonLd, pakistanFaq } from '../layout'
 
 export const metadata = makeMetadata(
-  'Online Nikah in Pakistan | Online Nikah Service and Registration',
+  'Online Nikah in Pakistan | Online Nikah Services',
   'Online Nikah in Pakistan for local and overseas couples: remote ceremony coordination, witnesses, documents, Mahr and registration assistance.',
   '/pakistan/'
 )
