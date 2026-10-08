@@ -1,11 +1,11 @@
 import { Layout, CTA, PageJsonLd, PractitionerPanel, OfficePanel, whatsappLink } from '../layout'
 
 export const metadata = {
-  title:{absolute:'About Online Nikah Services Pakistan | Matrimonial Legal Team'},
+  title:{absolute:'About Online Nikah Services | Matrimonial Legal Team'},
   description:'Meet the Pakistan-based matrimonial legal team behind Online Nikah Services and learn how remote Nikah, documents and registration are handled.',
   alternates:{canonical:'/about-us/'},
   openGraph:{
-    title:'About Online Nikah Services Pakistan | Matrimonial Legal Team',
+    title:'About Online Nikah Services | Matrimonial Legal Team',
     description:'Pakistan-based matrimonial lawyers coordinating Online Nikah ceremony, documentation and registration matters.',
     url:'/about-us/',
     type:'website'
