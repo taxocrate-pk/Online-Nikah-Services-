@@ -459,6 +459,20 @@ export const guideData = {
       ['Foreign Use May Require Additional Authentication','Embassies, immigration authorities and foreign civil registries may ask for certified translation, authentication, attestation or other evidence. Those requirements depend on the destination and purpose. A document that is valid in Pakistan may still need additional formalities before another authority accepts it.'],
       ['Correct Errors Before They Become an Overseas Problem','Spelling differences, wrong identity numbers, inconsistent dates and incomplete entries can create difficulty later. Couples should review the Nikah Nama and registration certificate early and obtain advice on correction procedures before submitting documents for immigration or other official use.']
     ]
+  },
+  'online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan': {
+    title:'Online Nikah Service Areas in Pakistan: City-by-City Guidance',
+    metaTitle:'Online Nikah Service Areas Pakistan | City Guide',
+    description:'Online Nikah service areas in Pakistan with city guidance for Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Hyderabad and Rahim Yar Khan.',
+    eyebrow:'PAKISTAN ONLINE NIKAH CITY GUIDE',
+    image:'/hero-pakistan.png',
+    intro:'This established multi-city URL now serves one clear purpose: helping users choose the correct city-specific Online Nikah page without competing with the homepage for the broad “Online Nikah” keyword.',
+    sections:[
+      ['Karachi, Lahore and Islamabad Have Dedicated Online Nikah Service Pages','Karachi, Lahore and Islamabad searches often carry local service intent. Their dedicated pages explain the relevant coordinator, local service areas, ceremony and document review, professional fee structure and registration cautions. Existing indexed city URLs are preserved where Search Console already shows them rather than replaced merely for a cleaner slug.'],
+      ['Rawalpindi, Faisalabad and Hyderabad Use Separate Local Targets','Rawalpindi, Faisalabad and Hyderabad are handled through their own city pages so one multi-city page does not attempt to rank for every local variation. The initial service remains remote-first: identity, marital status, free consent, witnesses, Mahr and the intended document use are reviewed before a ceremony date is treated as final.'],
+      ['Rahim Yar Khan Keeps Its Historically Performing URL','The Rahim Yar Khan legacy page has current Search Console visibility and is therefore preserved as its own city target. Its content is refined around Online Nikah intent while the outdated mixed “Court Marriage” wording remains only in the protected historical URL. This avoids sacrificing an indexed asset simply to create a prettier address.'],
+      ['Use the National Page for Pakistan-Wide Questions','The national Online Nikah in Pakistan page is the correct target for country-wide procedure, documents, registration and nationwide service questions. This city directory is a navigation and comparison guide, not a second generic service page. That division keeps search intent clearer and reduces internal keyword cannibalisation.']
+    ]
   }
 }
 
