@@ -39,7 +39,7 @@ export default function Page(){
   return <Layout><main>
     <Hero
       eyebrow="ONLINE NIKAH SERVICE SCOPE"
-      title="Online Nikah Services for Ceremony, Documents and Registration"
+      title="Online Nikah Services — Online Nikah Ceremony, Documents and Registration"
       image="/hero-nikah.png"
       imageAlt="Online Nikah ceremony and marriage documents coordinated by a Pakistan-based legal team"
       actions={<><CTA href={whatsappLink('Hello, I would like to discuss the scope of your Online Nikah service.')} children="Request a Service Assessment"/><CTA href="/pakistan/" outline children="Read the Pakistan Guide"/></>}
