@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
   if (countryData[slug]) {
     const data = countryData[slug]
     return makeMetadata(
-      `Online Nikah in ${data.name} | Pakistan Nikah Services`,
+      `Online Nikah ${data.seoName || data.name} | Online Nikah Services`,
       data.intro,
       `/${slug}/`
     )
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }) {
   if (cityRouteMap[slug]) {
     const data = cityData[cityRouteMap[slug]]
     return makeMetadata(
-      `Online Nikah in ${data.name} | Online Nikah Service Pakistan`,
+      `Online Nikah in ${data.name} | Online Nikah Services`,
       `Online Nikah in ${data.name} with remote ceremony coordination, document review, witnesses, Mahr guidance and Pakistan registration assistance.`,
       `/${slug}/`
     )
