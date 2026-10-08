@@ -603,8 +603,8 @@ export function CountryPage({ data, isPakistan=false }) {
   return <Layout><main>
     <nav className="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><span>{place}</span></nav>
     <Hero
-      eyebrow={isPakistan ? 'ONLINE NIKAH IN PAKISTAN' : `ONLINE NIKAH / ${data.name.toUpperCase()}`}
-      title={isPakistan ? 'Online Nikah in Pakistan for Local and Overseas Couples' : `Online Nikah in ${data.name} With Pakistan-Based Support`}
+      eyebrow={isPakistan ? 'PAKISTAN REMOTE MARRIAGE SERVICE' : `REMOTE NIKAH / ${data.name.toUpperCase()}`}
+      title={isPakistan ? 'Online Nikah in Pakistan — Online Nikah for Local and Overseas Couples' : `Online Nikah in ${data.name} — Online Nikah With Pakistan-Based Support`}
       image={isPakistan ? '/hero-pakistan.png' : data.image}
       imageAlt={isPakistan ? 'Pakistani Muslim couple completing Online Nikah documentation' : `Muslim couple preparing Online Nikah documents for ${data.name}`}
       actions={<><CTA href={whatsappLink()} children="Start on WhatsApp" /><CTA href="#details" outline children="Read the Procedure" /></>}
@@ -633,8 +633,8 @@ export function CityPage({ data, slug }) {
   return <Layout><main>
     <nav className="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><a href="/pakistan/">Pakistan</a><span aria-hidden="true">›</span><span>{data.name}</span></nav>
     <Hero
-      eyebrow={`ONLINE NIKAH / ${data.name.toUpperCase()}`}
-      title={`Online Nikah in ${data.name} for Local and Overseas Couples`}
+      eyebrow={`REMOTE MARRIAGE SERVICE / ${data.name.toUpperCase()}`}
+      title={`Online Nikah in ${data.name} — Online Nikah for Local and Overseas Couples`}
       image={data.image}
       imageAlt={`Online Nikah service and marriage documentation for couples connected with ${data.name}`}
       actions={<><CTA href={whatsappLink(`Hello, I need Online Nikah services in ${data.name}.`)} children="Ask About Your Case" /><CTA href="#city-details" outline children="Read City Guidance" /></>}
