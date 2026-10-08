@@ -263,7 +263,7 @@ export function SupportingImages() { return <section className="supporting-image
 
 export function FAQ({ items }) { return <div className="faq-list">{items.map(([q,a]) => <details key={q}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div> }
 
-export function Header() { return <header className="site-header"><div className="header-inner"><a className="brand" href="/">Online <span>Nikah</span><br/><span>Services</span></a><nav className="desktop-nav" aria-label="Main navigation"><a href="/">Home</a><div className="nav-menu"><button type="button">Our Services <span>⌄</span></button><div className="nav-dropdown">{services.map(([name, href]) => <a key={name} href={href}>{name}</a>)}</div></div><div className="nav-menu"><button type="button">Countries <span>⌄</span></button><div className="nav-dropdown countries-menu">{countries.map(([name, href]) => <a key={name} href={href}>{name}</a>)}</div></div><div className="nav-menu"><button type="button">Pakistan Cities <span>⌄</span></button><div className="nav-dropdown countries-menu">{Object.entries(cityData).map(([slug,data]) => <a key={slug} href={`/${slug}/`}>{data.name}</a>)}</div></div><a href="/blogs/">Guides</a><a href="/about-us/">About Us</a><a href="/contact-us/">Contact</a></nav><a className="header-whatsapp" href={whatsappLink('Hello, I would like an Online Nikah assessment.')}>WhatsApp <span>↗</span></a><details className="mobile-nav"><summary aria-label="Open menu">☰</summary><nav>{[['Home','/'],['Our Services','/our-services/'],['Pakistan','/pakistan/'],['Karachi','/karachi/'],['Lahore','/lahore/'],['Islamabad','/islamabad/'],['Guides','/blogs/'],['About Us','/about-us/'],['Contact','/contact-us/']].map(([n,h]) => <a key={n} href={h}>{n}</a>)}</nav></details></div></header> }
+export function Header() { return <header className="site-header"><div className="header-inner"><a className="brand" href="/">Online <span>Nikah</span><br/><span>Services</span></a><nav className="desktop-nav" aria-label="Main navigation"><a href="/">Home</a><div className="nav-menu"><button type="button">Our Services <span>⌄</span></button><div className="nav-dropdown">{services.map(([name, href]) => <a key={name} href={href}>{name}</a>)}</div></div><div className="nav-menu"><button type="button">Countries <span>⌄</span></button><div className="nav-dropdown countries-menu">{countries.map(([name, href]) => <a key={name} href={href}>{name}</a>)}</div></div><div className="nav-menu"><button type="button">Pakistan Cities <span>⌄</span></button><div className="nav-dropdown countries-menu">{Object.entries(cityData).map(([slug,data]) => <a key={slug} href={data.path}>{data.name}</a>)}</div></div><a href="/blogs/">Guides</a><a href="/about-us/">About Us</a><a href="/contact-us/">Contact</a></nav><a className="header-whatsapp" href={whatsappLink('Hello, I would like an Online Nikah assessment.')}>WhatsApp <span>↗</span></a><details className="mobile-nav"><summary aria-label="Open menu">☰</summary><nav>{[['Home','/'],['Our Services','/our-services/'],['Pakistan','/pakistan/'],['Karachi','/karachi/'],['Lahore','/lahore/'],['Islamabad','/islamabad/'],['Guides','/blogs/'],['About Us','/about-us/'],['Contact','/contact-us/']].map(([n,h]) => <a key={n} href={h}>{n}</a>)}</nav></details></div></header> }
 
 export function Layout({ children }) { return <PageFrame><Header />{children}</PageFrame> }
 
@@ -337,6 +337,7 @@ export const countryData = {
 export const cityData = {
   karachi: {
     name:'Karachi',
+    path:'/online-nikah-marriage-court-marriage-in-karachi/',
     image:'/hero-dulha-dulhan.png',
     intro:'Online Nikah services in Karachi with remote ceremony coordination, document review, witnesses, Mahr guidance and Pakistan registration assistance where applicable.',
     coordinator:'Karachi matters may be coordinated by Shankar Lal Kataria, Mohsin Ali Mirani, Zaheer Ashraf Qazi and Sobia Mohsin as relevant to the file.',
@@ -344,6 +345,7 @@ export const cityData = {
   },
   lahore: {
     name:'Lahore',
+    path:'/online-nikah-marriage-court-marriage-in-lahore/',
     image:'/support-signing.png',
     intro:'Online Nikah services in Lahore for couples who need a remote-first process, document review and clear separation between ceremony and registration.',
     coordinator:'Relevant Lahore matters are coordinated through Junaid Kahloon, Advocate High Court, with remote support from the matrimonial team.',
@@ -351,6 +353,7 @@ export const cityData = {
   },
   islamabad: {
     name:'Islamabad',
+    path:'/online-nikah-marriage-court-marriage-in-islamabad/',
     image:'/hero-nikah.png',
     intro:'Online Nikah services in Islamabad with identity, consent, witness and document review before the remote ceremony is scheduled.',
     coordinator:'Relevant Islamabad matters are coordinated through Kashif Mumtaz, Advocate High Court.',
@@ -358,6 +361,7 @@ export const cityData = {
   },
   rawalpindi: {
     name:'Rawalpindi',
+    path:'/rawalpindi/',
     image:'/support-video-call.png',
     intro:'Online Nikah services in Rawalpindi for local and overseas couples needing structured ceremony coordination and Pakistan-side paperwork guidance.',
     coordinator:'Relevant Rawalpindi matters are coordinated through Kashif Mumtaz, Advocate High Court, with the wider matrimonial team supporting documentation.',
@@ -365,6 +369,7 @@ export const cityData = {
   },
   faisalabad: {
     name:'Faisalabad',
+    path:'/faisalabad/',
     image:'/support-rings.png',
     intro:'Online Nikah services in Faisalabad with nationwide remote support for ceremony planning, witnesses, documents and registration questions.',
     coordinator:'Faisalabad enquiries are handled through the nationwide matrimonial service with local coordination arranged when required by the agreed scope.',
@@ -372,6 +377,7 @@ export const cityData = {
   },
   hyderabad: {
     name:'Hyderabad',
+    path:'/hyderabad/',
     image:'/hero-pakistan.png',
     intro:'Online Nikah services in Hyderabad, Sindh for couples who want remote ceremony planning and clear Pakistan-side document guidance.',
     coordinator:'Hyderabad enquiries can be coordinated with the regional legal network while Online Nikah documentation remains centrally reviewed.',
@@ -379,11 +385,22 @@ export const cityData = {
   },
   'rahim-yar-khan': {
     name:'Rahim Yar Khan',
+    path:'/online-nikah-marriage-court-marriage-in-rahimyar-khan/',
     image:'/hero-saudi.png',
     intro:'Online Nikah services in Rahim Yar Khan with remote coordination designed to preserve the city-specific search intent of the site’s established legacy page.',
     coordinator:'Rahim Yar Khan enquiries are handled through the nationwide matrimonial service, with the required local or documentary coordination confirmed case by case.',
     localities:['Rahim Yar Khan city','Satellite Town','Model Town','Abu Dhabi Road','Shahi Road']
   }
+}
+
+export const cityRouteMap = {
+  'online-nikah-marriage-court-marriage-in-karachi':'karachi',
+  'online-nikah-marriage-court-marriage-in-lahore':'lahore',
+  'online-nikah-marriage-court-marriage-in-islamabad':'islamabad',
+  'rawalpindi':'rawalpindi',
+  'faisalabad':'faisalabad',
+  'hyderabad':'hyderabad',
+  'online-nikah-marriage-court-marriage-in-rahimyar-khan':'rahim-yar-khan'
 }
 
 export const guideData = {
@@ -586,7 +603,7 @@ export function PakistanCities() {
       <h2>Online Nikah Services Across Pakistan</h2>
       <p className="section-lead">Each city page has its own local intent and contact context. These are service areas; a city page does not imply that every process step occurs at a physical office.</p>
     </div>
-    <div className="city-grid">{Object.entries(cityData).map(([slug,data]) => <article key={slug}><div><span className="city-pin">{data.name.slice(0,1)}</span><h3>{data.name}</h3></div><p>{data.intro}</p><a href={`/${slug}/`}>Online Nikah in {data.name} <span>↗</span></a></article>)}</div>
+    <div className="city-grid">{Object.entries(cityData).map(([slug,data]) => <article key={slug}><div><span className="city-pin">{data.name.slice(0,1)}</span><h3>{data.name}</h3></div><p>{data.intro}</p><a href={data.path}>Online Nikah in {data.name} <span>↗</span></a></article>)}</div>
   </section>
 }
 
