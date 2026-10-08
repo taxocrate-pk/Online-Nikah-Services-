@@ -79,3 +79,27 @@ a { color:inherit; text-decoration:none; }
   .practitioner-card { min-height:0; }
   .locality-list span { width:100%; }
 }
+
+
+/* DNA 2.04 comparison tables and narrow-screen safeguards */
+.table-wrap { margin-top:38px; width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--line); background:var(--paper); }
+.comparison-table { width:100%; min-width:760px; border-collapse:collapse; text-align:left; }
+.comparison-table th { background:var(--deep); color:#fff; font-size:11px; letter-spacing:.08em; text-transform:uppercase; padding:14px 16px; }
+.comparison-table td { padding:15px 16px; border-top:1px solid var(--line); vertical-align:top; color:var(--muted); font-size:13px; }
+.comparison-table td:first-child { color:var(--deep); font-weight:700; min-width:150px; }
+.comparison-table tbody tr:nth-child(even) { background:#f5f1e8; }
+
+@media (max-width:800px){
+  .mobile-nav nav { max-height:calc(100vh - 78px); overflow-y:auto; z-index:40; }
+  .table-wrap { margin-top:28px; }
+  .comparison-table { min-width:680px; }
+  .footer { padding-bottom:72px; }
+  .faq-list summary { gap:16px; }
+}
+@media (max-width:480px){
+  .hero h1 { font-size:40px; line-height:1.03; letter-spacing:-.045em; }
+  .contact-layout h1,.article-list h1,.about-block h1 { font-size:40px; line-height:1.04; letter-spacing:-.045em; }
+  .hero-image { min-height:300px; }
+  .button { min-height:48px; justify-content:center; }
+  .contact-form { padding:22px; }
+}
