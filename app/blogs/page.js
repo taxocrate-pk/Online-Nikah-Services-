@@ -45,8 +45,8 @@ export default function Page(){
       <p className="eyebrow">ONLINE NIKAH KNOWLEDGE CENTRE</p>
       <h1>Online Nikah Guides for Validity, Documents and Registration</h1>
       <div className="article-intro">
-        <h2>Focused Answers That Support the Main Online Nikah Service Page</h2>
-        <h3>Each Guide Targets One Legal or Documentation Question Instead of Competing for the Same Broad Keyword</h3>
+        <h2>Focused Answers That Support The Main Online Nikah Service Page</h2>
+        <h3>Each Guide Targets One Legal Or Documentation Question Instead of Competing for The Same Broad Keyword</h3>
         <p>The homepage remains the primary broad-intent page for “Online Nikah.” These guides are deliberately narrower. They answer questions about religious and legal validity, identity and CNIC-related searches, the role of a Nikah Khawan and marriage-record verification. That structure makes the content more useful to readers and reduces keyword cannibalisation across the site.</p>
         <p>General information cannot decide a particular couple’s case. Identity, free consent, marital status, witnesses, Mahr, representation, registration and overseas document use may require a case-specific review before a ceremony is fixed.</p>
       </div>
@@ -62,7 +62,7 @@ export default function Page(){
     </section>
 
     <section className="content-section split-section">
-      <div><p className="eyebrow">START WITH SERVICE INTENT</p><h2>Need an Online Nikah Service Rather Than General Information?</h2></div>
+      <div><p className="eyebrow">START WITH SERVICE INTENT</p><h2>Need An Online Nikah Service Rather Than General Information?</h2></div>
       <div className="prose">
         <p>If you already know that you want to arrange an Online Nikah, the main service and Pakistan pages are the better starting point. They explain the ceremony sequence, identity and consent review, witnesses, Mahr, professional fee, registration assistance and how overseas document-use questions are separated from the Pakistan process.</p>
         <p><a className="text-link" href="/">Online Nikah Services <span>↗</span></a></p>
@@ -72,7 +72,7 @@ export default function Page(){
     </section>
 
     <section className="intro-band">
-      <div><p className="eyebrow">CITY AND COUNTRY INTENT</p><h2>Use Location Pages When the Jurisdiction or Service Area Matters</h2></div>
+      <div><p className="eyebrow">CITY AND COUNTRY INTENT</p><h2>Use Location Pages When The Jurisdiction Or Service Area Matters</h2></div>
       <div>
         <h3>Pakistan Cities and Overseas Countries Have Separate Online Nikah Guidance</h3>
         <p>Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Hyderabad and Rahim Yar Khan have local service pages. The UK, USA, Canada, UAE, Saudi Arabia and Qatar have country pages that focus on Pakistan-side arrangements and the separate question of recognition or document use in the destination country.</p>
@@ -81,7 +81,7 @@ export default function Page(){
 
     <section className="cta-band">
       <p className="eyebrow">CASE-SPECIFIC QUESTION</p>
-      <h2>Ask the Online Nikah Team About Your Own Circumstances</h2>
+      <h2>Ask The Online Nikah Team About Your Own Circumstances</h2>
       <p>Share both parties’ locations, marital status and intended document use so the team can identify the right service or guide.</p>
       <CTA href={whatsappLink('Hello, I have a question after reading an Online Nikah guide.')} children="Ask on WhatsApp"/>
     </section>
