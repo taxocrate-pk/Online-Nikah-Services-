@@ -24,11 +24,11 @@ const serviceFaq = [
 ]
 
 export const metadata = {
-  title:{absolute:'Online Nikah Services in Pakistan | Ceremony, Documents and Registration'},
+  title:{absolute:'Online Nikah Services | Online Nikah Registration'},
   description:'Online Nikah services in Pakistan: remote ceremony coordination, document review, Nikah Nama, witnesses, Mahr and marriage registration assistance.',
   alternates:{canonical:'/our-services/'},
   openGraph:{
-    title:'Online Nikah Services in Pakistan | Ceremony, Documents and Registration',
+    title:'Online Nikah Services | Online Nikah Registration',
     description:'Understand the professional scope of Pakistan-based Online Nikah ceremony and registration assistance.',
     url:'/our-services/',
     type:'website'
