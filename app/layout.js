@@ -744,6 +744,7 @@ export function GuidePage({ data, slug }) {
       <div><p className="eyebrow">LEGAL and DOCUMENTARY CONTEXT</p><h2>Pakistan-Based Review of Remote Nikah Records and Procedure</h2><h3>Legal Guidance Separates Religious Ceremony, Registration and Overseas Document Use</h3></div>
       <p>This guide addresses a focused search question while the main Online Nikah service page remains the broad commercial target. Where a conclusion depends on a couple’s own identity, marital status, participation structure or destination country, a case-specific review is still required.</p>
     </section>
+    <SupportingImages/>
     <section className="content-section guide-prose">
       {data.sections.map(([heading,body],i)=><article key={heading}><p className="eyebrow">{String(i+1).padStart(2,'0')} / GUIDE</p><h2>{heading}</h2><p>{body}</p></article>)}
       <div className="guide-next"><h3>Need Online Nikah Service Rather Than General Information?</h3><p>Use the main service page for a case-specific review of both parties’ locations, documents, witnesses, Mahr, ceremony structure and registration needs.</p><a className="text-link" href="/">Go to Online Nikah Services <span>↗</span></a></div>
