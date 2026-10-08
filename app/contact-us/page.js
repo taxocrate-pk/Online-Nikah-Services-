@@ -18,9 +18,9 @@ export default function Page(){
     <section className="contact-layout">
       <div>
         <p className="eyebrow">ONLINE NIKAH ENQUIRY / PAKISTAN</p>
-        <h1>Contact Online Nikah Services for a Case Assessment</h1>
+        <h1>Contact Online Nikah Services for A Case Assessment</h1>
         <h2>Start With Both Parties’ Locations, Marital Status and Intended Document Use</h2>
-        <h3>Our Matrimonial Team Reviews the Ceremony, Witnesses and Registration Route Before You Fix the Date</h3>
+        <h3>Our Matrimonial Team Reviews The Ceremony, Witnesses and Registration Route Before You Fix The Date</h3>
         <p className="section-lead">Tell us where both intended spouses are located, nationality, current marital status, preferred date and why you need the final marriage documents. This lets the team identify the first checklist without asking you to send unnecessary sensitive material.</p>
         <div className="prose">
           <p><strong>General Online Nikah contact</strong><br/><a className="text-link" href={whatsappLink('Hello, I would like an Online Nikah assessment.')}>WhatsApp {siteConfig.phone} <span>↗</span></a></p>
@@ -47,7 +47,7 @@ export default function Page(){
 
     <section className="cta-band">
       <p className="eyebrow">READY TO START</p>
-      <h2>Send the Facts for Your Online Nikah Assessment</h2>
+      <h2>Send The Facts for Your Online Nikah Assessment</h2>
       <p>A short, accurate outline is more useful than a large document bundle at the first stage.</p>
       <CTA href={whatsappLink('Hello, I would like an Online Nikah assessment.')} children="WhatsApp the Online Nikah Team"/>
     </section>
