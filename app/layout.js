@@ -275,6 +275,7 @@ export const countryData = {
   'united-arab-emirates': {
     name:'United Arab Emirates',
     short:'the UAE',
+    seoName:'UAE',
     intro:'Online Nikah support for UAE residents who need Pakistan-based ceremony coordination, identity and consent checks, witness planning and document guidance.',
     image:'/hero-uae.png',
     angle:'Online Nikah Planning for UAE Residents With Pakistan-Based Support',
@@ -285,6 +286,7 @@ export const countryData = {
   'saudi-arabia': {
     name:'Saudi Arabia',
     short:'Saudi Arabia',
+    seoName:'Saudi Arabia',
     intro:'Online Nikah guidance for Saudi residents arranging a Pakistan-connected Nikah with careful attention to identity, consent, witnesses and later document use.',
     image:'/hero-saudi.png',
     angle:'A Clear Online Nikah Route for Couples Living in Saudi Arabia',
@@ -295,6 +297,7 @@ export const countryData = {
   'qatar': {
     name:'Qatar',
     short:'Qatar',
+    seoName:'Qatar',
     intro:'Remote Online Nikah coordination for Qatar residents who want Pakistan-based support with ceremony planning, documents and registration questions.',
     image:'/hero-qatar.png',
     angle:'Online Nikah Guidance for Qatar Residents Before the Ceremony Date',
@@ -305,6 +308,7 @@ export const countryData = {
   'united-kingdom': {
     name:'United Kingdom',
     short:'the UK',
+    seoName:'UK',
     intro:'Online Nikah guidance for UK residents who want a Pakistan-connected Nikah while keeping religious ceremony, Pakistan registration and UK legal recognition separate.',
     image:'/hero-uk.png',
     angle:'Online Nikah for UK Residents With Clear Religious and Civil Distinctions',
@@ -315,6 +319,7 @@ export const countryData = {
   'united-states': {
     name:'United States',
     short:'the United States',
+    seoName:'USA',
     intro:'Online Nikah planning for US residents seeking Pakistan-based ceremony coordination and document guidance without assuming uniform recognition across states.',
     image:'/hero-usa.png',
     angle:'Online Nikah Support for US Residents With State-Specific Caution',
@@ -325,6 +330,7 @@ export const countryData = {
   'canada': {
     name:'Canada',
     short:'Canada',
+    seoName:'Canada',
     intro:'Online Nikah guidance for Canadian residents arranging a Pakistan-connected ceremony, document review and possible Pakistan registration assistance.',
     image:'/hero-canada.png',
     angle:'Online Nikah Planning for Canadian Residents and Pakistan-Based Documentation',
