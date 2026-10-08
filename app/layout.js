@@ -5,7 +5,7 @@ import './globals.css'
 export const metadata = {
   metadataBase: new URL('https://onlinenikahservices.com'),
   title: {
-    default: 'Online Nikah Services Pakistan | Online Nikah for Overseas Couples',
+    default: 'Online Nikah Pakistan | Online Nikah Services',
     template: '%s | Online Nikah Services'
   },
   description: 'Online Nikah services in Pakistan for local and overseas couples: legal guidance, remote ceremony coordination, documents and registration assistance.',
@@ -13,7 +13,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Online Nikah Services',
-    title: 'Online Nikah Services Pakistan | Online Nikah for Overseas Couples',
+    title: 'Online Nikah Pakistan | Online Nikah Services',
     description: 'Pakistan-based Online Nikah guidance, remote ceremony coordination and registration assistance for couples in Pakistan and abroad.',
     url: '/'
   },
