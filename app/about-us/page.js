@@ -19,7 +19,7 @@ export default function Page(){
       <h1>Pakistan-Based Online Nikah Team for Remote Marriage Guidance</h1>
       <div className="about-columns">
         <div>
-          <h2>Matrimonial Legal Experience Behind the Online Nikah Service</h2>
+          <h2>Matrimonial Legal Experience Behind The Online Nikah Service</h2>
           <h3>Lawyers Coordinate Ceremony, Documentation and Registration Questions Without Blurring Their Legal Effect</h3>
           <p>Online Nikah Services is built around a simple principle: a remote marriage arrangement deserves the same care with identity, free consent, witnesses, Mahr and accurate documentation as an in-person matter. The technology is only the communication medium. The legal and religious elements of the Nikah, the Pakistan registration route and the later use of documents must still be considered on their own terms.</p>
           <p>The service is coordinated through Pakistan-based advocates and matrimonial professionals. Karachi files may involve Shankar Lal Kataria, Mohsin Ali Mirani, Zaheer Ashraf Qazi and Sobia Mohsin as relevant. Islamabad and Rawalpindi matters are coordinated through Kashif Mumtaz, Advocate High Court, while Lahore matters are coordinated through Junaid Kahloon, Advocate High Court.</p>
@@ -67,7 +67,7 @@ export default function Page(){
 
     <section className="cta-band">
       <p className="eyebrow">CASE-SPECIFIC REVIEW</p>
-      <h2>Start With a Short Online Nikah Assessment</h2>
+      <h2>Start With A Short Online Nikah Assessment</h2>
       <p>Tell us both parties’ locations, marital status, preferred date and intended document use. The team can then identify the first practical step.</p>
       <CTA href={whatsappLink('Hello, I would like an Online Nikah assessment.')} children="Request an Assessment"/>
     </section>
