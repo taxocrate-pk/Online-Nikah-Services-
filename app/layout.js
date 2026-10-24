@@ -7,6 +7,16 @@ export const metadata = {
   title: { default: 'Online Nikah Services | Trusted Remote Nikah Guidance', template: '%s | Online Nikah Services' },
   description: 'Professional guidance for couples arranging an online Nikah, document review and Pakistan-based registration assistance.',
   alternates: { canonical: '/' },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48 64x64 128x128 256x256' },
+      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon-192x192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+  },
   openGraph: { type: 'website', siteName: 'Online Nikah Services', title: 'Online Nikah Services', description: 'Thoughtful, practical guidance for your Nikah journey.' },
 }
 export const viewport = { colorScheme: 'light', themeColor: '#f7f4ed', userScalable: true }
