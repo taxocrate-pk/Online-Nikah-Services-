@@ -29,6 +29,156 @@
       "source": "/online-nikah-marriage-court-marriage-in-karachi",
       "destination": "/",
       "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-in-islam-a-comprehensive-guide-to-e-nikkah-online/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-in-islam-a-comprehensive-guide-to-e-nikkah-online",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/understanding-online-nikah-a-comprehensive-guide/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/understanding-online-nikah-a-comprehensive-guide",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-services-and-validity-of-online-nikah/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-services-and-validity-of-online-nikah",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-service-in-pakistan-urdu/",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-service-in-pakistan-urdu",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/nikah-khawan-service-overview-a-comprehensive-guide/",
+      "destination": "/our-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/nikah-khawan-service-overview-a-comprehensive-guide",
+      "destination": "/our-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-lahore/",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-lahore",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-rahimyar-khan/",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-rahimyar-khan",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-civil-marriage-in-pakistan-about-court-marriage/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-civil-marriage-in-pakistan-about-court-marriage",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-in-karachi-islamabad-rawalpindi-pakistan/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-in-karachi-islamabad-rawalpindi-pakistan",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/introduction-to-court-marriage-unveiling-the-legal-union/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/introduction-to-court-marriage-unveiling-the-legal-union",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/understanding-the-process-of-civil-marriage-ceremonies/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/understanding-the-process-of-civil-marriage-ceremonies",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nadra-marriage-certificate-authenticity-guide/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nadra-marriage-certificate-authenticity-guide",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nadra-marriage-certificate-in-pakistan/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nadra-marriage-certificate-in-pakistan",
+      "destination": "/",
+      "statusCode": 301
     }
   ]
 }
