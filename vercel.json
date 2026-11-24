@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    {
+      "source": "/get-married-online-our-online-nikah-services/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/get-married-online-our-online-nikah-services",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-services-in-islamabad-karachi-rahimyar-khan-lahore-peshawar-rawalpindi/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-services-in-islamabad-karachi-rahimyar-khan-lahore-peshawar-rawalpindi",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-karachi/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-karachi",
+      "destination": "/",
+      "statusCode": 301
+    }
+  ]
+}
