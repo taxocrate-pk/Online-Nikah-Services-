@@ -259,6 +259,11 @@
       "source": "/page-sitemap.xml",
       "destination": "/sitemap.xml",
       "statusCode": 301
+    },
+    {
+      "source": "/category-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
     }
   ]
 }
