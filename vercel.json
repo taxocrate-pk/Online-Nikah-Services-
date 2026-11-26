@@ -62,52 +62,52 @@
     },
     {
       "source": "/online-nikah-service-in-pakistan-urdu/",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-service-in-pakistan-urdu",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/nikah-khawan-service-overview-a-comprehensive-guide/",
-      "destination": "/our-services",
+      "destination": "/our-services/",
       "statusCode": 301
     },
     {
       "source": "/nikah-khawan-service-overview-a-comprehensive-guide",
-      "destination": "/our-services",
+      "destination": "/our-services/",
       "statusCode": 301
     },
     {
       "source": "/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan/",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-marriage-in-islamabad-peshawar-lahore-rawalpindi-karachi-rahimyar-khan",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-marriage-court-marriage-in-lahore/",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-marriage-court-marriage-in-lahore",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-marriage-court-marriage-in-rahimyar-khan/",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-marriage-court-marriage-in-rahimyar-khan",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
@@ -212,32 +212,32 @@
     },
     {
       "source": "/online-nikah-marriage-court-marriage-in-islamabad/",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-marriage-court-marriage-in-islamabad",
-      "destination": "/pakistan",
+      "destination": "/pakistan/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-documentation-by-expert-lawyers/",
-      "destination": "/our-services",
+      "destination": "/our-services/",
       "statusCode": 301
     },
     {
       "source": "/online-nikah-documentation-by-expert-lawyers",
-      "destination": "/our-services",
+      "destination": "/our-services/",
       "statusCode": 301
     },
     {
       "source": "/non-marriage-certificate-right-for-you/",
-      "destination": "/our-services",
+      "destination": "/our-services/",
       "statusCode": 301
     },
     {
       "source": "/non-marriage-certificate-right-for-you",
-      "destination": "/our-services",
+      "destination": "/our-services/",
       "statusCode": 301
     },
     {
