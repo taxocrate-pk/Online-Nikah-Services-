@@ -179,6 +179,71 @@
       "source": "/nadra-marriage-certificate-in-pakistan",
       "destination": "/",
       "statusCode": 301
+    },
+    {
+      "source": "/online-marriage-services-in-the-modern-era/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-marriage-services-in-the-modern-era",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-a-growing-trend/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/court-marriage-a-growing-trend",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-marriage-success-stories/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-marriage-success-stories",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-islamabad/",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-marriage-court-marriage-in-islamabad",
+      "destination": "/pakistan",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-documentation-by-expert-lawyers/",
+      "destination": "/our-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/online-nikah-documentation-by-expert-lawyers",
+      "destination": "/our-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/non-marriage-certificate-right-for-you/",
+      "destination": "/our-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/non-marriage-certificate-right-for-you",
+      "destination": "/our-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/:path*",
+      "destination": "/:path*",
+      "statusCode": 301
     }
   ]
 }
