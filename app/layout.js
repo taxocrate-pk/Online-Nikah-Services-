@@ -3,7 +3,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata = {
-  metadataBase: new URL('https://onlinenikahservices.com'),
+  metadataBase: new URL('https://www.onlinenikahservices.com'),
   title: { default: 'Online Nikah Services | Trusted Remote Nikah Guidance', template: '%s | Online Nikah Services' },
   description: 'Professional guidance for couples arranging an online Nikah, document review and Pakistan-based registration assistance.',
   alternates: { canonical: '/' },
@@ -40,9 +40,9 @@ export const siteConfig = {
 
 export function jsonLd(data) { return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} /> }
 
-export const organisationSchema = { '@context': 'https://schema.org', '@type': 'Organization', '@id':'https://onlinenikahservices.com/#organization', name: 'Online Nikah Services', url: 'https://onlinenikahservices.com', description: 'Online Nikah guidance, document review and Pakistan-based registration assistance.' }
+export const organisationSchema = { '@context': 'https://schema.org', '@type': 'Organization', '@id':'https://www.onlinenikahservices.com/#organization', name: 'Online Nikah Services', url: 'https://www.onlinenikahservices.com', description: 'Online Nikah guidance, document review and Pakistan-based registration assistance.' }
 
-export const websiteSchema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Online Nikah Services', url: 'https://onlinenikahservices.com' }
+export const websiteSchema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Online Nikah Services', url: 'https://www.onlinenikahservices.com' }
 
 export const countries = [
   ['Pakistan','/pakistan/'], ['United Arab Emirates','/united-arab-emirates/'], ['Saudi Arabia','/saudi-arabia/'], ['Qatar','/qatar/'], ['United Kingdom','/united-kingdom/'], ['United States','/united-states/'], ['Canada','/canada/']
@@ -50,12 +50,12 @@ export const countries = [
 
 export const services = [['Online Nikah ceremony','/our-services/'], ['Document review','/our-services/'], ['Registration assistance','/our-services/'], ['Overseas document use','/our-services/']]
 
-export function breadcrumbSchema(items) { return { '@context':'https://schema.org', '@type':'BreadcrumbList', itemListElement: items.map((item, index) => ({ '@type':'ListItem', position:index+1, name:item[0], item:`https://onlinenikahservices.com${item[1]}` })) } }
+export function breadcrumbSchema(items) { return { '@context':'https://schema.org', '@type':'BreadcrumbList', itemListElement: items.map((item, index) => ({ '@type':'ListItem', position:index+1, name:item[0], item:`https://www.onlinenikahservices.com${item[1]}` })) } }
 
 export function PageJsonLd({ breadcrumb, service, faq }) { return <>{jsonLd(organisationSchema)}{jsonLd(websiteSchema)}{breadcrumb && jsonLd(breadcrumbSchema(breadcrumb))}{service && jsonLd({ '@context':'https://schema.org', '@graph':[
-  { '@type':'LegalService', '@id':'https://onlinenikahservices.com/#legalservice', name:service, url:'https://onlinenikahservices.com/', areaServed:'Worldwide', provider:{'@id':'https://onlinenikahservices.com/#organization'} },
-  { '@type':'WebPage', '@id':'https://onlinenikahservices.com/#webpage', url:'https://onlinenikahservices.com/', name:service, about:{'@id':'https://onlinenikahservices.com/#legalservice'} },
-  { '@type':'LocalBusiness', '@id':'https://onlinenikahservices.com/#localbusiness', name:'Online Nikah Services', url:'https://onlinenikahservices.com/', telephone:siteConfig.phone, areaServed:['Pakistan','United Kingdom','United States','Canada','United Arab Emirates','Saudi Arabia','Qatar'] }
+  { '@type':'LegalService', '@id':'https://www.onlinenikahservices.com/#legalservice', name:service, url:'https://www.onlinenikahservices.com/', areaServed:'Worldwide', provider:{'@id':'https://www.onlinenikahservices.com/#organization'} },
+  { '@type':'WebPage', '@id':'https://www.onlinenikahservices.com/#webpage', url:'https://www.onlinenikahservices.com/', name:service, about:{'@id':'https://www.onlinenikahservices.com/#legalservice'} },
+  { '@type':'LocalBusiness', '@id':'https://www.onlinenikahservices.com/#localbusiness', name:'Online Nikah Services', url:'https://www.onlinenikahservices.com/', telephone:siteConfig.phone, areaServed:['Pakistan','United Kingdom','United States','Canada','United Arab Emirates','Saudi Arabia','Qatar'] }
 ] })}{faq && jsonLd({ '@context':'https://schema.org', '@type':'FAQPage', mainEntity:faq.map(x => ({ '@type':'Question', name:x[0], acceptedAnswer:{ '@type':'Answer', text:x[1] } }))})}</> }
 
 export function makeMetadata(title, description, path) { return { title, description, alternates:{canonical:path}, openGraph:{title, description, url:path, type:'website'} } }
