@@ -24,7 +24,7 @@ export default function Page() {
     h1="Online Nikah Fee in Pakistan: Is It Free?"
     headline="Online Nikah Fee in Pakistan: Is Online Nikah Free, and What Has Fees?"
     description={description}
-    image="/support-rings.png"
+    image="/support-rings.webp"
     imageAlt="Simple wedding rings beside a Nikah document"
     lead="An honest breakdown of which parts of a nikah can be free, which steps involve fees, and why a “free online nikah” offer that skips registration can cost far more later."
     intro={['The Nikah Itself Can Be Simple. Registration and Documents Usually Have Fees.', 'Islam does not attach a fee to the nikah. But a nikah in Pakistan also has to be registered, and a couple who will use the marriage for a CNIC update, visa or family record needs proper documents. Those steps involve the registrar, the Union Council, NADRA and sometimes attestation offices, each with their own charges.']}

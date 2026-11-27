@@ -24,7 +24,7 @@ export default function Page() {
     h1="Online Nikah in Islam: Conditions and Views"
     headline="Online Nikah in Islam: Conditions, Wakeel and How Scholars View Video Nikah"
     description={description}
-    image="/support-signing.png"
+    image="/support-signing.webp"
     imageAlt="Hands signing a Nikah document with a fountain pen"
     lead="What makes a nikah complete in Islam, how scholars differ on video and proxy nikah, and how the marriage is then registered under Pakistani law."
     intro={['The Ceremony Follows Islamic Conditions; Registration Follows Pakistani Law.', 'An online nikah is not a separate kind of marriage. It is a nikah in which one or both parties cannot be present, so the question is how the usual conditions are met at a distance. This guide sets out those conditions, the views of scholars on remote arrangements, and the legal registration that follows in Pakistan.']}
